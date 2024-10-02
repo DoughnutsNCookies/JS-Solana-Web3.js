@@ -1,0 +1,20 @@
+{
+  "name": "tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "balance": "node --trace-deprecation balance.js",
+    "customer": "node create-customer.js",
+    "merchant": "node create-merchant.js",
+    "airdrop": "node airdrop-customer.js",
+    "send": "node send.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@solana/web3.js": "^1.95.3"
+  }
+}
