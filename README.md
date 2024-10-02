@@ -10,6 +10,12 @@ Ensure Node.js, npm, and Solana CLI are installed
 
 Ensure you're in the `tutorial` directory
 
+Install the dependencies:
+
+```bash
+npm install
+```
+
 For this tutorial, we will be using Solana Localnet. To start a localnet, run the following command:
 
 ```bash
