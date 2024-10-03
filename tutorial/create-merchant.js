@@ -14,7 +14,7 @@ try {
     data = JSON.parse(fs.readFileSync(filePath));
   }
 } catch (err) {
-  console.error("Error reading file:", err);
+  console.error("Error reading file, creating new file instead");
 }
 
 data.merchantPublic = keypair.publicKey.toBase58();
